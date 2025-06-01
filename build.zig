@@ -319,7 +319,7 @@ pub fn build(b: *std.Build) !void {
                 .target = target,
                 .optimize = optimize,
             })) |dependency| {
-                curl.root_module.linkLibrary(dependency.artifact("ssl"));
+                curl.root_module.linkLibrary(dependency.artifact("openssl"));
             }
         }
         // TODO -DOPENSSL_SUPPRESS_DEPRECATED
