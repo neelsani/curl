@@ -23,8 +23,8 @@
             .lazy = true,
         },
         .openssl = .{
-            .url = "git+https://github.com/allyourcodebase/openssl#f348124c5382bcc377f1b3277357cbf2ed2fb8db",
-            .hash = "openssl-3.3.1-2-TC9C3Se3ZACF5WO_CjoD7Bt_X94oCsAAbbwhOp1rTZBe",
+            .url = "git+https://github.com/kassane/openssl-zig#ea487e7a4f2156d0423a055c94c609d31f9b4a08",
+            .hash = "openssl-3.5.0-wZcA78BetQGgFouoN6icdpCG1wg0uN3Xkk1oiZuCRqWd",
             .lazy = true,
         },
         .mbedtls = .{
